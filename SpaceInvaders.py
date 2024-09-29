@@ -1,3 +1,4 @@
+# Pre-requisites: install library below
 import pygame
 import random
 import math
@@ -10,7 +11,7 @@ pygame.init()
 screen = pygame.display.set_mode((800, 600))
 
 # Insert background pic
-background = pygame.image.load('space1.jpg')
+background = pygame.image.load('space.jpg')
 
 # Insert background music
 mixer.music.load('background.wav')
@@ -53,7 +54,7 @@ def Enemy(x, y, i):
 
 
 # Bullet
-bullet_img = pygame.image.load('bullet (1).png')
+bullet_img = pygame.image.load('bullet.png')
 pygame.display.set_icon(bullet_img)
 bulletX = 0
 bulletY = 480
